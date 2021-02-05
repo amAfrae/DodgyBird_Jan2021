@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: HorsMapTPBas
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-318.0,"y":-91.0},"guid":"b08ed79b-ec41-41c7-87f6-c5708f43ea58","$version":"A","$type":"Bolt.OnTriggerEnter2D","$id":"9"},{"defaultValues":{},"position":{"x":-22.0,"y":-89.0},"guid":"a56be0cc-798e-4850-b67a-5c7ceedd4c80","$version":"A","$type":"Bolt.Branch","$id":"11"},{"chainable":false,"member":{"name":"CompareTag","parameterTypes":["System.String"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%tag":{"$content":"Joueur","$type":"System.String"}},"position":{"x":-44.0,"y":14.0},"guid":"cd654e10-bc8b-460c-922b-cc095d6b9c1c","$version":"A","$type":"Bolt.InvokeMember","$id":"13"},{"chainable":false,"member":{"name":"position","parameterTypes":null,"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"input":{"x":-8.91,"y":3.8,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":169.0,"y":-117.0},"guid":"ae3f7a2f-9677-4395-b588-9b9bfc53eea1","$version":"A","$type":"Bolt.SetMember","$id":"16"},{"specifyFallback":false,"kind":"Application","defaultValues":{"name":{"$content":"SpawnPos","$type":"System.String"}},"position":{"x":179.0,"y":21.0},"guid":"2a792f1e-9d7f-4e8b-9b57-7fce2341e4e2","$version":"A","$type":"Bolt.GetVariable","$id":"19"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"945ca164-1d0c-4d6d-85db-af0aad72047f","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"16"},"destinationKey":"assign","guid":"e007596a-1f58-4b42-9966-d5cbcc99e7a8","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"collider","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"a0ee356c-1ece-424d-952d-eccf76311d27","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"result","destinationUnit":{"$ref":"11"},"destinationKey":"condition","guid":"74302dcb-f13d-47c8-ab4e-5ad2123c5013","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"input","guid":"99fe3368-7cad-49df-84ee-99508264a704","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"collider","destinationUnit":{"$ref":"16"},"destinationKey":"target","guid":"214ef050-cca8-47ea-9a69-72fe177352fe","$type":"Bolt.ValueConnection"},{"position":{"xMin":-394.0,"yMin":-157.0,"xMax":395.0,"yMax":157.0},"label":"Si
+      le joueur touche la barri\u00e8re de hors-map, le re-t\u00e9l\u00e9porter dans
+      la partie","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"b4b7550e-2c55-413c-95c2-ecf22ed9ec1e","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []

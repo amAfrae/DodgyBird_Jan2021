@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2067819806, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: SavedVariables
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Pi\u00e8ces","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"BoostPts","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"HasAlreadyPlayed","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Niveau1_Unlocked","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"BestScoreLVL1","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"BestScoreLVL2","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"BestScoreLVL3","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Niveau2_Unlocked","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Niveau3_Unlocked","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Skin1_Unlocked","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Skin2_Unlocked","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Skin3_Unlocked","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"CurrentSkin","value":{"$content":"Normal","$type":"System.String"},"$version":"A"},{"name":"GodMode_Unlocked","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"GodMode","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"NoScreenshake","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"SetVolume","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"InputMethod","value":{"$content":"Touch","$type":"System.String"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []

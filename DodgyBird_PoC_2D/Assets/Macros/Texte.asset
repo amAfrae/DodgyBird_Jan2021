@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Texte
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":40.0,"y":103.0},"zoom":0.9,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-216.0,"y":-101.0},"guid":"0f390d58-af52-4bb5-bdf6-7059ae96fb44","$version":"A","$type":"Bolt.Update","$id":"9"},{"argumentCount":0,"defaultValues":{"name":{"$content":"F1","$type":"System.String"},"target":null},"position":{"x":-62.0,"y":-119.0},"guid":"a951e64f-fe86-4669-9c60-697d05a11c63","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"11"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"F1","$type":"System.String"}},"position":{"x":-347.0,"y":109.0},"guid":"acb9738a-41e2-4410-a144-49538ae8862e","$version":"A","$type":"Bolt.CustomEvent","$id":"13"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"UnityEngine.UI.Text","targetTypeName":"UnityEngine.UI.Text","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"","$type":"System.String"}},"position":{"x":107.0,"y":116.0},"guid":"153c5170-455a-4b7c-aff5-a2a6db9f6d89","$version":"A","$type":"Bolt.SetMember","$id":"15"},{"chainable":false,"member":{"name":"ToString","parameterTypes":[],"targetType":"System.Int32","targetTypeName":"System.Int32","$version":"A"},"defaultValues":{"target":{"$content":0,"$type":"System.Int32"}},"position":{"x":-151.0,"y":118.0},"guid":"1090dd99-01b8-4546-ade8-4fcec15c4530","$version":"A","$type":"Bolt.InvokeMember","$id":"18"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"ViesJoueur","$type":"System.String"}},"position":{"x":-150.0,"y":227.0},"guid":"9db26974-9034-45b6-a7a5-3c147977e14a","$version":"A","$type":"Bolt.GetVariable","$id":"21"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"9c6aa42a-1443-486d-ae79-ae6e27a42e6e","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"d32ee4ad-586a-492e-aaf6-1ab370f7701e","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"exit","destinationUnit":{"$ref":"15"},"destinationKey":"assign","guid":"3496efda-759b-4106-99c4-e6d0daadea40","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"value","destinationUnit":{"$ref":"18"},"destinationKey":"target","guid":"3f9da152-633a-4312-a074-b46e511ab526","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"result","destinationUnit":{"$ref":"15"},"destinationKey":"input","guid":"0992e155-00d4-4cce-9629-1aceee0fdc25","$type":"Bolt.ValueConnection"},{"position":{"xMin":-402.0,"yMin":50.0,"xMax":277.0,"yMax":329.0},"label":"F1
+      -> Afficher le nombre de vies sur l''UI","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"d8a7a585-9769-47d9-b6fa-c4a36d09441e","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
